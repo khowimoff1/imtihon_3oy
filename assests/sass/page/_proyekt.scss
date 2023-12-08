@@ -1,0 +1,48 @@
+.proyekt {
+  &_span {
+    margin-top: 85px;
+    h1 {
+      margin-left: 50px;
+      color: #000;
+      font-size: 40px;
+      font-weight: 300;
+      line-height: normal;
+      margin-bottom: 18px;
+    }
+    span {
+      display: block;
+      width: 200px;
+      height: 10px;
+      background: #000;
+    }
+  }
+  &_div {
+    margin-left: 55px;
+    margin-right: 55px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    div {
+      h1 {
+        color: #000;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 10px;
+      }
+      p {
+        color: var(--Gray-2, #4f4f4f);
+        font-size: 18px;
+        font-weight: 300;
+        line-height: normal;
+        margin-bottom: 10px;
+      }
+    }
+  }
+  background-image: url("/assests/img/fon/Rectangle\ 44.svg");
+  background-position: right top;
+  background-repeat: no-repeat;
+  &_btn{
+    @include d-flex(center);
+    padding-bottom: 40px;
+  }
+}

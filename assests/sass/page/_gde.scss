@@ -1,0 +1,33 @@
+.gde {
+  @include d-flex(center);
+  background-image: url("/assests/img/icon/инт\ 1.svg");
+  background-repeat: no-repeat;
+  height: 600px;
+  margin-bottom: 70px;
+  &_center {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    h1 {
+      color: #fff;
+      font-size: 40px;
+      font-weight: 300;
+      line-height: 146.687%;
+    }
+    &_s{
+        display: flex;
+        margin-bottom: 15px;
+      input{
+          width: 20px;
+          height: 20px;
+          margin-right: 10px;
+      }
+      label {
+        color: #fff;
+        font-size: 28px;
+        font-weight: 300;
+        line-height: 146.687%;
+      }
+    }
+  }
+}

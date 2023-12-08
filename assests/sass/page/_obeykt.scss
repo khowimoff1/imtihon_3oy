@@ -1,0 +1,110 @@
+.obeykt {
+  border-top:  1px solid #BDBDBD;
+  border-bottom: 1px solid #BDBDBD;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  &_span {
+    margin-top: 85px;
+    margin-bottom: 70px;
+    h1 {
+      width: 573px;
+      margin-left: 50px;
+      color: #000;
+      font-size: 40px;
+      font-weight: 300;
+      line-height: normal;
+      margin-bottom: 18px;
+    }
+    span {
+      display: block;
+      width: 200px;
+      height: 10px;
+      background: #000;
+    }
+  }
+  &_item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 55px;
+    margin-right: 55px;
+    &_card {
+      display: flex;
+      flex: column;
+      margin-bottom: 100px;
+      .c_left {
+        margin-right: 10px;
+        margin-top: 70px;
+        h1 {
+          color: #000;
+          font-size: 58px;
+          font-weight: 500;
+          line-height: 145.687%;
+        }
+      }
+      .c_right {
+        &_h3 {
+          display: block;
+          width: 155px;
+          background: #faff09;
+          margin-top: 20px;
+          h3 {
+            padding: 7px 10px;
+            color: #030202;
+            font-size: 32px;
+            font-weight: 700;
+            line-height: normal;
+            margin-bottom: 15px;
+          }
+        }
+        p {
+          width: 290px;
+          color: var(--Gray-2, #4f4f4f);
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 147.687%;
+          margin-bottom: 20px;
+        }
+        a {
+          color: #000;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 147.687%;
+          text-decoration-line: underline;
+          img {
+            position: relative;
+            right: -5px;
+            bottom: -5px;
+          }
+        }
+        .rectangle {
+          position: relative;
+          right: 11px;
+          bottom: 3px;
+        }
+      }
+    }
+  }
+  &_button {
+    margin-left: 135px;
+    button {
+      padding: 25px 50px;
+      color: #000;
+      text-align: center;
+      font-size: 36px;
+      font-weight: 300;
+      line-height: normal;
+      background: #fff;
+      border: 1px solid #000;
+      background: rgba(196, 196, 196, 0);
+      img{
+        margin-left: 10px;
+      }
+    }
+    button:hover{
+      background-color: #faff09;
+      opacity: 0.8;
+    }
+  }
+}
