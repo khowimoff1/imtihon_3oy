@@ -649,6 +649,7 @@
           margin-right: 0px;
           grid-template-columns: repeat(1, 1fr);
           div {
+            background-color: black;
             .proyekt_b {
               @include d-flex;
             }
@@ -808,8 +809,8 @@
           margin-right: 11px;
           gap: 10px;
           img {
-            width: 172px;
-            height: 172px;
+            width: 167px;
+            height: 167px;
           }
         }
       }

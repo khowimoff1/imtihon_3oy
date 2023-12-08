@@ -1242,6 +1242,9 @@ input[type=checkbox] {
     margin-right: 0px;
     grid-template-columns: repeat(1, 1fr);
   }
+  body .container .proyekt_div div {
+    background-color: black;
+  }
   body .container .proyekt_div div .proyekt_b {
     display: flex;
     justify-content: space-between;
@@ -1401,8 +1404,8 @@ input[type=checkbox] {
     gap: 10px;
   }
   body .container .instagram_img img {
-    width: 172px;
-    height: 172px;
+    width: 167px;
+    height: 167px;
   }
   body .container .katalog_span {
     margin-bottom: 70px;
